@@ -64,8 +64,8 @@ window.FOTO = {
 
   /* Foto della pagina SERVIZI */
   servizi: {
-    taglio:   [ "https://images.pexels.com/photos/313776/pexels-photo-313776.jpeg?auto=compress&cs=tinysrgb&w=1000" ],
-    consegna: [ "sezionatrice.png" ]
+    taglio:   [ "sezionatrice.png" ],
+    consegna: [ "https://images.pexels.com/photos/13520550/pexels-photo-13520550.jpeg?auto=compress&cs=tinysrgb&w=1000" ]
   }
 
 };
