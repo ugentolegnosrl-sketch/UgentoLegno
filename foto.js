@@ -53,18 +53,13 @@ window.FOTO = {
       "https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1000",
       "https://images.pexels.com/photos/172291/pexels-photo-172291.jpeg?auto=compress&cs=tinysrgb&w=1000",
       "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1000"
-    ],
-
-    /* LATTONERIA: nessuna foto per ora (mostra il riquadro illustrato).
-       Aggiungi qui i tuoi URL e diventerà automaticamente un carosello. */
-    lattoneria: [
     ]
 
   },
 
   /* Foto della pagina SERVIZI */
   servizi: {
-    taglio:   [ "sezionatrice.png" ],
+    taglio:   [ "https://images.pexels.com/photos/313776/pexels-photo-313776.jpeg?auto=compress&cs=tinysrgb&w=1000" ],
     consegna: [ "https://images.pexels.com/photos/13520550/pexels-photo-13520550.jpeg?auto=compress&cs=tinysrgb&w=1000" ]
   }
 
