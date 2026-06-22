@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cookie Policy — Ugento Legno</title>
+<meta name="description" content="Informativa sui cookie del sito di Ugento Legno S.r.l.">
+<meta name="robots" content="noindex">
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/inter-400.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/inter-500.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/inter-600.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/inter-700.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/playfair-600.woff2') format('woff2')}
+@font-face{font-family:'Playfair Display';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/playfair-700.woff2') format('woff2')}
+  :root{--crema:#F5F0E8;--beige:#EDE4D3;--crema-chiara:#FBF8F2;--marrone:#3B2A1A;--espresso:#241709;--ambra:#C8892A;--ambra-scura:#A56F1F;--bordo:rgba(59,42,26,.14);--raggio:14px;--tr:.25s ease}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',system-ui,sans-serif;line-height:1.7;color:var(--marrone);background:var(--crema);-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.2;font-weight:600}
+  a{color:var(--ambra-scura)}
+  .container{width:min(820px,100% - 2.5rem);margin-inline:auto}
+  .header{position:fixed;inset:0 0 auto 0;z-index:100;padding:.9rem 0;background:rgba(245,240,232,.97);box-shadow:0 4px 18px -10px rgba(36,23,9,.3)}
+  .header .container{width:min(1120px,100% - 2.5rem);display:flex;align-items:center;justify-content:space-between;gap:1rem}
+  .logo{display:flex;align-items:center;gap:.55rem;font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;text-decoration:none;color:var(--marrone)}
+  .logo .mark{width:30px;height:30px}.logo b{color:var(--ambra)}
+  .nav{position:fixed;top:0;right:0;height:100dvh;width:min(80vw,300px);background:var(--espresso);display:flex;flex-direction:column;gap:.1rem;padding:5.2rem 1.8rem 2rem;transform:translateX(100%);transition:transform .3s ease}
+  .nav.open{transform:translateX(0)}
+  .nav a{text-decoration:none;color:var(--crema);font-weight:500;font-size:1.05rem;padding:.7rem 0;border-bottom:1px solid rgba(245,240,232,.12)}
+  .nav a:hover{color:var(--ambra)}
+  .burger{z-index:110;background:none;border:0;width:44px;height:44px;display:grid;place-items:center;cursor:pointer;color:var(--marrone)}
+  .burger .b,.burger .b::before,.burger .b::after{content:"";display:block;width:24px;height:2px;background:currentColor;border-radius:2px;transition:transform .25s,opacity .25s;position:relative}
+  .burger .b::before{position:absolute;top:-7px}.burger .b::after{position:absolute;top:7px}
+  .burger[aria-expanded="true"] .b{transform:rotate(45deg)}.burger[aria-expanded="true"] .b::before{transform:rotate(-90deg);top:0}.burger[aria-expanded="true"] .b::after{opacity:0}
+  .phero{padding:7.5rem 0 2.5rem;background:var(--espresso);color:var(--crema);text-align:center}
+  .phero .eyebrow{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--ambra);margin-bottom:.6rem}
+  .phero h1{font-size:clamp(1.9rem,5vw,2.8rem)}
+  .content{padding:3rem 0 4rem}
+  .note{background:#FCEFD6;border:1px solid var(--ambra);border-radius:10px;padding:1rem 1.2rem;font-size:.92rem;margin-bottom:2.2rem}
+  .content h2{font-size:1.3rem;margin:2rem 0 .6rem;color:var(--espresso)}
+  .content h2:first-of-type{margin-top:0}
+  .content p,.content li{font-size:1rem}
+  .content p{margin-bottom:.9rem}
+  .content ul{margin:0 0 .9rem 1.2rem}
+  .content li{margin-bottom:.4rem}
+  .content .upd{margin-top:2.5rem;font-size:.86rem;color:rgba(59,42,26,.6)}
+  .footer{background:var(--espresso);color:rgba(245,240,232,.78);padding:2.4rem 0 1.6rem;font-size:.92rem}
+  .footer .container{width:min(1120px,100% - 2.5rem)}
+  .footer .fnav{display:flex;gap:1.2rem;flex-wrap:wrap;margin-bottom:1.4rem}
+  .footer a{color:rgba(245,240,232,.8);text-decoration:none}.footer a:hover{color:var(--ambra)}
+  .footer .legal{font-size:.8rem;line-height:1.55;color:rgba(245,240,232,.5);border-top:1px solid rgba(245,240,232,.14);padding-top:1.2rem}
+  .footer .legal a{color:rgba(245,240,232,.7);text-decoration:underline}
+  .wa-fab{position:fixed;right:18px;bottom:18px;z-index:200;width:56px;height:56px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 24px -6px rgba(0,0,0,.45);transition:transform .2s ease}
+  .wa-fab:hover{transform:scale(1.08)}.wa-fab svg{width:32px;height:32px;fill:#fff}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--ambra);outline-offset:3px;border-radius:4px}
+  @media (min-width:768px){.burger{display:none}.nav{position:static;height:auto;width:auto;background:transparent;flex-direction:row;gap:1.7rem;padding:0;transform:none}.nav a{border:0;color:var(--marrone);font-size:.97rem}.nav a:hover{color:var(--ambra-scura)}}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="#C8892A" stroke-width="2"/><circle cx="16" cy="16" r="8.5" fill="none" stroke="#C8892A" stroke-width="1.5"/><circle cx="16" cy="16" r="3.5" fill="none" stroke="#C8892A" stroke-width="1.5"/><circle cx="16" cy="16" r="1" fill="#C8892A"/></svg> Ugento <b>Legno</b></a>
+    <button class="burger" id="burger" aria-label="Apri il menu" aria-expanded="false" aria-controls="nav"><span class="b"></span></button>
+    <nav class="nav" id="nav" aria-label="Navigazione principale">
+      <a href="index.html">Home</a><a href="catalogo.html">Catalogo</a><a href="servizi.html">Servizi</a><a href="contatti.html">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<section class="phero">
+  <div class="container"><span class="eyebrow">Note legali</span><h1>Cookie Policy</h1></div>
+</section>
+
+<section class="content">
+  <div class="container">
+
+    <div class="note"><strong>Bozza da verificare.</strong> Questo testo riflette gli strumenti attualmente presenti sul sito. Se in futuro aggiungerai statistiche (es. Google Analytics), pixel social o altri strumenti di tracciamento, dovrai aggiornare questa pagina e, in quel caso, aggiungere un banner di consenso conforme alle linee guida del Garante.</div>
+
+    <h2>Cosa sono i cookie</h2>
+    <p>I cookie sono piccoli file che un sito può salvare sul tuo dispositivo. Possono essere <strong>tecnici</strong> (necessari al funzionamento del sito) oppure <strong>di profilazione</strong> (usati per tracciare le abitudini di navigazione, ad esempio a fini pubblicitari).</p>
+
+    <h2>Quali cookie usa questo sito</h2>
+    <p>Questo sito è realizzato per ridurre al minimo la raccolta di dati: <strong>non utilizza cookie di profilazione, non installa strumenti pubblicitari e non usa sistemi di statistica</strong>. Per questo motivo non è presente un banner di consenso: vengono impiegati al più cookie tecnici necessari al normale funzionamento delle pagine.</p>
+
+    <h2>Servizi di terze parti</h2>
+    <ul>
+      <li><strong>Google Maps (solo su richiesta).</strong> Nella pagina Contatti la mappa non è attiva di default: viene caricata <strong>soltanto se clicchi</strong> sul pulsante "Carica la mappa". Cliccando acconsenti al caricamento di Google Maps, che a quel punto può installare propri cookie e trattare dati come l'indirizzo IP, secondo le politiche di Google. Se non clicchi, nessun dato viene inviato a Google.</li>
+      <li><strong>Immagini da Pexels.</strong> Alcune immagini sono caricate da un servizio esterno di hosting immagini. Questo comporta una richiesta tecnica che comunica il tuo indirizzo IP, ma <strong>non installa cookie</strong>.</li>
+      <li><strong>Modulo di contatto (FormSubmit).</strong> L'invio del modulo trasmette i dati inseriti al servizio che li inoltra alla nostra email; questa operazione non installa cookie di tracciamento sul sito.</li>
+      <li><strong>Font.</strong> I caratteri sono ospitati sul nostro sito e non comportano collegamenti a server esterni.</li>
+    </ul>
+
+    <h2>Come gestire i cookie dal browser</h2>
+    <p>Puoi sempre bloccare o cancellare i cookie dalle impostazioni del tuo browser (Chrome, Firefox, Safari, Edge): nelle relative sezioni "Privacy" o "Cookie" trovi le opzioni per visualizzarli ed eliminarli. La disattivazione dei cookie tecnici potrebbe limitare alcune funzioni del sito.</p>
+
+    <p class="upd">Ultimo aggiornamento: giugno 2026. Per il trattamento dei dati personali vedi l'<a href="privacy.html">Informativa Privacy</a>.</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="fnav"><a href="index.html">Home</a><a href="catalogo.html">Catalogo</a><a href="servizi.html">Servizi</a><a href="contatti.html">Contatti</a><a href="privacy.html">Privacy</a><a href="cookie.html">Cookie</a></div>
+    <p class="legal">Ugento Legno S.r.l. — Sede legale: Via Provinciale Ugento-Racale, Z. Ind. km 18, 73059 Ugento (LE) — P.IVA 04723960755 — REA LE-313651 — Capitale sociale &euro; 10.000 i.v.<br>&copy; <span id="anno"></span> Ugento Legno S.r.l.</p>
+  </div>
+</footer>
+
+<a class="wa-fab" href="https://wa.me/393296205097?text=Salve%2C%20vi%20scrivo%20dal%20sito%20Ugento%20Legno." target="_blank" rel="noopener" aria-label="Scrivici su WhatsApp">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885M20.52 3.449C18.24 1.245 15.24 0 12.045 0 5.463 0 .104 5.359.101 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.582 0 11.943-5.359 11.945-11.893a11.821 11.821 0 00-3.418-8.45z"/></svg>
+</a>
+
+<script>
+  const burger=document.getElementById('burger'),nav=document.getElementById('nav');
+  burger.addEventListener('click',function(){const o=!nav.classList.contains('open');nav.classList.toggle('open',o);burger.setAttribute('aria-expanded',String(o));});
+  document.getElementById('anno').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
